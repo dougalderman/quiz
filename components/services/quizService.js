@@ -2,7 +2,9 @@ var app = angular.module('quizApp');
 
 app.service('quizService', function ($q, $firebaseObject, $firebaseArray) {
 	
-	var firebaseUrl = '<your firebase url>'
+	// var firebaseUrl = '<your firebase url>'
+    
+    var firebaseUrl = 'https://blinding-inferno-3021.firebaseio.com/' + '/quizzes';
 
 	var quizzes = new Firebase(firebaseUrl + '/quizzes');
 	var quizzesObj = $firebaseObject(quizzes);

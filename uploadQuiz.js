@@ -1,5 +1,6 @@
 var Firebase = require('firebase'); 
-var firebaseUrl = 'https://quizsw.firebaseio.com/' + '/quizzes';
+// var firebaseUrl = 'https://quizsw.firebaseio.com/' + '/quizzes';
+var firebaseUrl = 'https://blinding-inferno-3021.firebaseio.com/' + '/quizzes';
 
 var ref = new Firebase(firebaseUrl);
 
